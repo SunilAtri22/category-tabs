@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Category tabs</title>
+</head>
+
+<body>
+    <h1 id="heading" class="heading">SELECT YOUR CHOICE</h1>
+    <div class="categories">
+        <div class="tab-container">
+            <button onclick="showProducts('Men')">Men</button>
+            <button onclick="showProducts('Women')">Women</button>
+            <button onclick="showProducts('Kids')">Kids</button>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="img-badge">
+                <img class="image" src="https://plus.unsplash.com/premium_photo-1682090786689-741d60a11384"
+                    alt="menswear" />
+                <div class="badge">Wedding Special</div>
+            </div>
+            <div class="product">
+                <div class="product-title">Mens Kurta</div>
+                <div class="vendor">Manyvar</div>
+            </div>
+            <div class="price">
+                <strong class="selling-price">Rs 1299.00</strong>
+                <div class="compare-price">2299.00</div>
+                <div class="discount">50% Off</div>
+            </div>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
