@@ -36,5 +36,5 @@ cd category-tabs
 3. Open 'index.html' in your preferred web browser.
 
 ## Demo
-You can view a live demo of the project [here](https://github.com/SunilAtri22/category-tabs/settings/pages).
+You can view a live demo of the project [here](https://sunilatri22.github.io/category-tabs/).
 
